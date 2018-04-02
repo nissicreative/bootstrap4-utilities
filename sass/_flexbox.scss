@@ -8,13 +8,13 @@
     }
 }
 
+// Center content vertically and horizontally.
 @mixin flex-center() {
     @include flexbox;
     align-items: center;
     justify-content: center;
 }
 
-// Center content vertically and horizontally.
 .flex-center {
     @include flex-center;
 }

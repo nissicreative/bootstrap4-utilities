@@ -1,5 +1,6 @@
 // Alternate button mixins (redefine font size and padding)
 // --------------------------------------------------------------------- //
+
 @mixin btn-alt($font-size, $offset: 0) {
     font-size: $font-size;
     line-height: $font-size-base * $line-height-base;

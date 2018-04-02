@@ -1,13 +1,15 @@
-// Load all helper classes and mixins
+// Import all files
+// -------------------------------------------------- //
+
 // Variables and mixins
 @import "mixins/backgrounds";
 @import "mixins/buttons";
 @import "mixins/forms";
 @import "mixins/icons";
 @import "mixins/triangles";
-@import "social";
 
 // Core CSS
+@import "social";
 @import "scaffolding";
 @import "type";
 
@@ -17,4 +19,3 @@
 
 // Utilities
 @import "backgrounds";
-@import "touch";

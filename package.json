@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap4-utilities",
+  "version": "1.0.0",
+  "description": "A collection of utility classes and mixins to complement Bootstrap 4.",
+  "main": "./sass/_utilities.scss",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nissicreative@github.com/nissicreative/bootstrap4-utilities.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Mike Folsom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nissicreative/bootstrap4-utilities/issues"
+  },
+  "homepage": "https://github.com/nissicreative/bootstrap4-utilities#readme"
+}
