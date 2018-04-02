@@ -1,0 +1,22 @@
+// Alternate button mixins (redefine font size and padding)
+// --------------------------------------------------------------------- //
+@mixin btn-alt($font-size, $offset: 0) {
+    font-size: $font-size;
+    line-height: $font-size-base * $line-height-base;
+    padding-top: $btn-padding-y + $offset !important;
+    padding-bottom: $btn-padding-y - $offset !important;
+}
+
+@mixin btn-sm-alt($font-size, $offset: 0) {
+    font-size: $font-size;
+    line-height: $font-size-sm * $line-height-sm;
+    padding-top: $btn-padding-y-sm + $offset !important;
+    padding-bottom: $btn-padding-y-sm - $offset !important;
+}
+
+@mixin btn-lg-alt($font-size, $offset: 0) {
+    font-size: $font-size;
+    line-height: $font-size-lg * $line-height-lg;
+    padding-top: $btn-padding-y-lg + $offset !important;
+    padding-bottom: $btn-padding-y-lg - $offset !important;
+}

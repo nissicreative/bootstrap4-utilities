@@ -1,0 +1,28 @@
+// Basic Setup (Applies to flex container)
+// --------------------------------------------------------------------- //
+@mixin flexbox() {
+    display: flex;
+    // Enforce default behavior in non-conforming browsers (IE)
+    &>* {
+        flex: 0 1 auto;
+    }
+}
+
+@mixin flex-center() {
+    @include flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+// Center content vertically and horizontally.
+.flex-center {
+    @include flex-center;
+}
+
+.flex-grow {
+    flex: $grid-columns + 1 0 auto;
+}
+
+.flex-shrink {
+    flex: 0 $grid-columns + 1 auto;
+}
